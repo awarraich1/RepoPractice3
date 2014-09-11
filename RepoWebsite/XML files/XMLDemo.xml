@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student>
+    <StudentId>20091000</StudentId>
+    <firstName>Amardeep</firstName>
+    <LastName>Warraich</LastName>
+    <Average>98.66</Average>
+  </Student>
+
+  <Student>
+    <StudentId>20091001</StudentId>
+    <firstName>Jaspreet</firstName>
+    <LastName>Kamg</LastName>
+    <Average>90.66</Average>
+  </Student>
+
+  <Student>
+    <StudentId>20091002</StudentId>
+    <firstName>Jatinder</firstName>
+    <LastName>Minhas</LastName>
+    <Average>87.00</Average>
+  </Student>
+</Students>
