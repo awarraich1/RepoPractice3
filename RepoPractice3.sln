@@ -7,6 +7,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RepoWebsite", "http://local
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{3f934f7f-45cd-4521-b8ab-11d07ac038fc}|eRestaurantSystem.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50386"
 		Debug.AspNetCompiler.PhysicalPath = "RepoWebsite\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50386\"
