@@ -24,5 +24,15 @@ namespace eRestaurantSystem.BLL
                 return context.SpecialEvents.ToList();
             }
         }
+
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+        public List<Reservation> Reservations_List()
+        {
+            //interfacing with our context class which inherits from DbContext 
+            using (eRestaurantContext context = new eRestaurantContext())
+            {
+                return context.Reservations.ToList();
+            }
+        }
     }
 }
