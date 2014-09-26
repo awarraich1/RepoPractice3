@@ -26,7 +26,7 @@ namespace eRestaurantSystem.BLL
         }
 
         [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public List<Reservation> Reservations_List()
+        public List<SpecialEvent> Reservation_List()
         {
             //interfacing with our context class which inherits from DbContext 
             using (eRestaurantContext context = new eRestaurantContext())
